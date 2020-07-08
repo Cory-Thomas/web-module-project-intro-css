@@ -32,6 +32,11 @@ header div{
 }
 
 header section div {
+    position: relative;
+    bottom: 75px;
+}
+
+header section div {
     width: 60%;
     display: inline-block;
     margin: auto;
@@ -46,15 +51,23 @@ nav a {
     border-radius: 10px;
     color: white;
     padding: 2%;
-    margin: 0 auto;
+    margin-left: 50px;
     position: relative;
     top: 40%;
 }
+
+
 
 nav a:nth-child(1){
     background-color: #ff764e;
     position: relative;
     top: 60%;
+}
+
+nav a:nth-child(1){
+    background-color: #ff764e;
+    position: relative;
+    top: 40%;
 }
 
 nav a:nth-child(2){
@@ -63,11 +76,25 @@ nav a:nth-child(2){
     top: 60%;
 }
 
+nav a:nth-child(2){
+    background-color: #5ed3eb;
+    position: relative;
+    top: 40%;
+}
+
 nav a:nth-child(3){
     background-color: #ffcd69;
     position: relative;
     top: 60%;
 }
+
+nav a:nth-child(3){
+    background-color: #ffcd69;
+    position: relative;
+    top: 40%;
+}
+
+
 
 h1 {
     font-family: 'Chelsea Market', cursive;
