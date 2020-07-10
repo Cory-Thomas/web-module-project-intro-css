@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+header, main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header-image {
+    border-radius: 50%;
+    width:25%;
+    margin: 5%;
+}
+
+header div{
+    padding: 5%;
+}
+
+header section div {
+    position: relative;
+    bottom: 75px;
+}
+
+header section div {
+    width: 60%;
+    display: inline-block;
+    margin: auto;
+}
+
+nav {
+    height: 5vh;
+}
+
+nav a {
+    
+    border-radius: 10px;
+    color: white;
+    padding: 2%;
+    margin-left: 50px;
+    position: relative;
+    top: 40%;
+}
+
+
+
+nav a:nth-child(1){
+    background-color: #ff764e;
+    position: relative;
+    top: 60%;
+}
+
+nav a:nth-child(1){
+    background-color: #ff764e;
+    position: relative;
+    top: 40%;
+}
+
+nav a:nth-child(2){
+    background-color: #5ed3eb;
+    position: relative;
+    top: 60%;
+}
+
+nav a:nth-child(2){
+    background-color: #5ed3eb;
+    position: relative;
+    top: 40%;
+}
+
+nav a:nth-child(3){
+    background-color: #ffcd69;
+    position: relative;
+    top: 60%;
+}
+
+nav a:nth-child(3){
+    background-color: #ffcd69;
+    position: relative;
+    top: 40%;
+}
+
+
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 4rem;
+}
+
+main section {
+    width: 50%;
+    margin: 1% auto;
+    padding: 3%;
+    font-size: 1.4rem;
+    
+}
+
+main section img {
+    width: 35%;
+}
+
+.container {
+    background-color: #ddb9a3;
+    color: white;
+    padding: 2%;
+}
+
+div.footer-image {
+   
+    
+    background-image: url("assets/footer_img.jpg");
+    width: 100%;
+    height:280px;
+    max-height: 400px;
+    overflow: hidden;
+    background-position: top;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+footer nav {
+    background-color: #f9e7dc;
+    height: 10vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+strong {
+   font-weight: bold; 
+}
+
